@@ -12,9 +12,9 @@ Do not change test files in folders:
 * TransactionTests 
 * VMTests
 
-It is being created by the testFillers which could be found at https://github.com/ethereum/cpp-ethereum/tree/develop/test/tools/jsontests at src folder. The filler specification and wiki are in development so please ask on gitter channel for more details.
+It is being created by the testFillers which could be found at src folder. The filler specification and wiki are in development so please ask on gitter channel for more details.
 
-If you want to modify a test filler or add a new test please contact @winsvega at https://gitter.im/ethereum/cpp-ethereum
+If you want to modify a test filler or add a new test please contact @winsvega at https://gitter.im/ethereum/aleth
 
 All files should be of the form:
 
@@ -40,9 +40,18 @@ Arrays are allowed, but don't use them for sets of properties - only use them fo
 Test Set Sanitation
 -------------------
 
+### Setup
+
+(Requires `virtualenv`)
+```
+#> virtualenv -p python3 .env3
+#> . .env3/bin/activate
+#> python3 -m pip install -r requirements.txt
+```
+
 ### Checkers
 
-Several basic checks against the test-set are performed to enusre that they have been filled and are formatted correctly.
+Several basic checks against the test-set are performed to ensure that they have been filled and are formatted correctly.
 Currently, there are three types of checks that we can perform:
 
 -   `make TEST_PREFIX.format`: check that the JSON is formatted correctly.
