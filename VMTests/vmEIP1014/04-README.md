@@ -1,4 +1,4 @@
-#### create2_3: Derivation of expected gas values.
+#### create2_4: Derivation of expected gas values.
 
 > Note: `init_code` as spec'd in EIP-1014.md is `deadbeef`. This is invalid bytecode, and will fail
 when passed thru an actual EVM. Therefore these tests have substituted valid bytecode `60de60ad` as `init_code` instead.
