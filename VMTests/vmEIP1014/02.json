@@ -29,7 +29,13 @@
         "storage": {
           "0x00": "0xD04116cDd17beBE565EB2422F2497E06cC1C9833"
         }
-      }
+      },
+        "0xD04116cDd17beBE565EB2422F2497E06cC1C9833": {
+            "balance": "0x0de0b6b3a7640000",
+            "code": "0x0",
+            "nonce": "0x0",
+            "storage": {}
+        }
     },
     "pre": {
       "0xdeadbeef00000000000000000000000000000000": {
