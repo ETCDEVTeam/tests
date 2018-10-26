@@ -1,6 +1,6 @@
 #### create2_5: Derivation of expected gas values.
 
-> Note: While `05.json` does as spec'd in EIP1014 (using `deadbeef...deadbeef`) as `init_code`, `05_custom.json** uses instead runnable bytecode.
+> Note: While `05.json` does as spec'd in EIP1014 (using `deadbeef...deadbeef`) as `init_code`, `05_runnable_initcode.json` uses instead runnable bytecode, doc'd below. 
 
 | Bytecode | Opcode Assembly      |   Gas | Notes                    |
 |      --- | ---                  |   --- | ---                      |
@@ -22,7 +22,8 @@
 
 Total: 52057
 
-**`05_custom.json`'s runnable `init_code`:**
+**`05_runnable_initcode.json`'s runnable `init_code`:**
+> This contract costs 84 gas.
 
 ```
 PUSH1 0xde
