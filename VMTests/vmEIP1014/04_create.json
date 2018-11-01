@@ -1,5 +1,5 @@
 {
-    "create2_4": {
+    "create2_4_create": {
         "callcreates": [],
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -11,26 +11,26 @@
         "exec": {
             "address": "0x00000000000000000000000000000000deadbeef",
             "caller": "0x00000000000000000000000000000000deadbeef",
-            "code": "0x6360de60ad6000527f00000000000000000000000000000000000000000000000000000000cafebabe6004601c6000f5600055",
+            "code": "0x6360de60ad6000526004601c6000f0600055",
             "data": "",
             "gas": "0x0186a0",
             "gasPrice": "0x5af3107a4000",
             "origin": "0xcd1722f3947def4cf144679da39c4c32bdc35681",
             "value": "0x0"
         },
-        "gas": "0xbb59",
+        "gas": "0xbb62",
         "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
         "out": "",
         "post": {
             "0x00000000000000000000000000000000deadbeef": {
                 "balance": "0xd3c21bcecceda1000000",
-                "code": "0x6360de60ad6000527f00000000000000000000000000000000000000000000000000000000cafebabe6004601c6000f5600055",
+                "code": "0x6360de60ad6000526004601c6000f0600055",
                 "nonce": "0x01",
                 "storage": {
-                    "0x00": "0xa1eb08fc8f38e7d4b42863cde357a49e1e4ddf14"
+                    "0x00": "e8279be14e9fe2ad2d8e52e42ca96fb33a813bbe"
                 }
             },
-            "0xa1eb08fc8f38e7d4b42863cde357a49e1e4ddf14": {
+            "e8279be14e9fe2ad2d8e52e42ca96fb33a813bbe": {
                 "balance": "0x0",
                 "code": "0x60de60ad",
                 "nonce": "0x0",
@@ -41,7 +41,7 @@
         "pre": {
             "0x00000000000000000000000000000000deadbeef": {
                 "balance": "0xd3c21bcecceda1000000",
-                "code": "0x6360de60ad6000527f00000000000000000000000000000000000000000000000000000000cafebabe6004601c6000f5600055",
+                "code": "0x6360de60ad6000526004601c6000f0600055",
                 "nonce": "0x00",
                 "storage": {
                 }
